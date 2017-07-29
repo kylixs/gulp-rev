@@ -1,14 +1,13 @@
 {
-  "name": "gulp-rev",
+  "name": "simply-gulp-rev",
   "version": "8.0.0",
   "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn-d41d8cd98f.css",
   "license": "MIT",
-  "repository": "sindresorhus/gulp-rev",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylixs/gulp-rev.git"
   },
+  "author": "Gong Dewei <gongdewei@gmail.com> (kylix.cc)",
   "engines": {
     "node": ">=4"
   },
@@ -46,5 +45,13 @@
     "ava": "*",
     "p-event": "^1.0.0",
     "xo": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/gulp-rev/issues"
+  },
+  "homepage": "https://github.com/sindresorhus/gulp-rev#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   }
 }
